@@ -1,0 +1,23 @@
+.customImageHeight {
+    height: 60px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      display: inline-block;
+    }
+  
+    .navbar-brand img {
+      margin-right: 0;
+    }
+  }
+
+  
